@@ -21,7 +21,8 @@ A project designed in order to create AI playing Atari Space Invaders.
 
 Double Q-Learning is a version of Q-Learning that uses two neural networks. The difference to regular q-Learning is that in DDQN instead of q array we use the model for the prediction, instead of inserting new values in a q array, we perform the fit operation on the network model.  The output of the model will be q-values ​​for a given action. The value of q is calculated using the following formula:
 
-\
+![CodeCogsEqn](https://user-images.githubusercontent.com/62477191/153775640-a39d88e9-8091-4f40-b72f-a5b34b14a310.png)
+
 Double Q-Learning uses two models to ensure better effectiveness. If we only used one model, the same model would be updated every one step and would be used for prediction. Two are used to increase "stability" models. The first (main_model) is updated with each loop of the training loop. The second model (target_model) is updated with a certain frequency, and this model is used to predict future q values. In the project, the target model was updated every 10 episodes.
 
 ---
