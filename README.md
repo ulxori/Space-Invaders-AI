@@ -7,11 +7,11 @@
 ### Table of Contents
 
 - [Description](#description)
-- [Technologies](#how-to-use)
-- [Results](#license)
-- [References](#author-info)
+- [Technologies](#technologies)
+- [Results](#results)
 
----
+
+
 
 ## Description
 A project designed in order to create AI playing Atari Space Invaders.
@@ -43,7 +43,7 @@ The game frames are used as training data in project. Based on the images, we ar
 
 [Back To The Top](#space-invaders-ai)
 
----
+
 
 ## Technologies
 
@@ -56,7 +56,7 @@ The game frames are used as training data in project. Based on the images, we ar
  
 [Back To The Top](#space-invaders-ai)
 
----
+
 
 
 
@@ -78,5 +78,3 @@ As we can see, a trained agent performs much better than an agent taking random 
 
 
 [Back To The Top](#space-invaders-ai)
-
----
